@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Learnity</string>
+    <!-- MainActivity -->
+    <string name="tv1">Learnity es una aplicación enfocada en aprender a aprender,
+    aqui encontraras una amplia gama decursos donde podras aprender desde programar una computadora
+    hasta tocar el ukulele.</string>
+    <string name="BotonAnterior">Anterior</string>
+    <!-- Menu -->
+    <string name="MenuPrincipal">Home</string>
+    <string name="MenuCursos">Cursos</string>
+    <string name="MenuPerfil">Perfil</string>
+    <!--Presentacion -->
+    <string name="Omitir">Omitir</string>
+
+    <!-- Perfil_Usuario -->
+    <string name="Ingreso">Ingresar</string>
+    <string name="ButtonIngreso">Ingresar</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Contrasena">Contraseña</string>
+    <!-- RegistroActivity -->
+    <string name="Nombre">Nombre</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="Correo">Correo</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="RepetirContraseña">Repetir Contraseña</string>
+    <string name="BotonRegistrarse">Registrarse</string>
+    <!--    cursos -->
+    <string name="Cursos">Cursos</string>
+    <string name="BotonCurso1">Curso de Python</string>
+    <string name="BotonCurso2">Curso de Desarrollo web</string>
+    <string name="BotonCurso3">Curso de Logíca de Programación</string>
+    <string name="BotonCurso4">Curso de Ukulele</string>
+</resources>
