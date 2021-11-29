@@ -1,14 +1,18 @@
 package com.learnlity.learnity;
 
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Toast;
-import androidx.appcompat.app.AlertDialog;
+
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.learnlity.learnity.Cursos.CursoDesarrolloWeb;
+import com.learnlity.learnity.Cursos.CursoLogicaProgramacion;
+import com.learnlity.learnity.Cursos.CursoPython;
+import com.learnlity.learnity.Cursos.CursoUkulele;
+import com.learnlity.learnity.Registro.PerfilUsuario;
 
 public class ActivityCursos extends AppCompatActivity {
 

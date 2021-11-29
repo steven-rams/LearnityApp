@@ -1,4 +1,4 @@
-package com.learnlity.learnity;
+package com.learnlity.learnity.Registro;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
+
+import com.learnlity.learnity.ActivityCursos;
+import com.learnlity.learnity.MainActivity;
+import com.learnlity.learnity.R;
 
 public class PerfilUsuario extends AppCompatActivity {
 

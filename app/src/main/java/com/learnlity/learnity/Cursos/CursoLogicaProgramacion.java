@@ -1,4 +1,4 @@
-package com.learnlity.learnity;
+package com.learnlity.learnity.Cursos;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,12 +7,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class CursoDesarrolloWeb extends AppCompatActivity {
+import com.learnlity.learnity.ActivityCursos;
+import com.learnlity.learnity.MainActivity;
+import com.learnlity.learnity.Registro.PerfilUsuario;
+import com.learnlity.learnity.R;
+
+public class CursoLogicaProgramacion extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_curso_desarrollo_web);
+        setContentView(R.layout.activity_curso_logica_programacion);
     }
     //Actividades del menu
 

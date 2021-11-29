@@ -11,6 +11,8 @@
     <string name="MenuPerfil">Perfil</string>
     <!--Presentacion -->
     <string name="Omitir">Omitir</string>
+    <string name="Sigueiente1"></string>
+    <string name="Siguiente2"></string>
 
     <!-- Perfil_Usuario -->
     <string name="Ingreso">Ingresar</string>
@@ -30,4 +32,16 @@
     <string name="BotonCurso2">Curso de Desarrollo web</string>
     <string name="BotonCurso3">Curso de Logíca de Programación</string>
     <string name="BotonCurso4">Curso de Ukulele</string>
+    <!--Curso de python -->
+    <string name="OverViewCours">Que aprenderás aqui:</string>
+    <string name="Modulo1">Modulo 1</string>
+    <string name="TextModulo1">Introducción a Python y a la programación.</string>
+    <string name="Modulo2">Modulo 2</string>
+    <string name="TextModulo2">Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos.</string>
+    <string name="Modulo3">Modulo 3</string>
+    <string name="TextModulo3">Valores booleanos, ejecución condicional, bucles, listas y procesamiento de listas, operaciones lógicas y bit a bit.</string>
+    <string name="Modulo4">Modulo 4</string>
+    <string name="TextModulo4">Funciones, tuplas, diccionarios y procesamiento de datos.</string>
+    <string name="BotonIniciarCurso">Comenzar</string>
+    <string name="TextIniciar">Comenzar Curso</string>
 </resources>

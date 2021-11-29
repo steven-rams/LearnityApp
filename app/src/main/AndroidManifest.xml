@@ -19,28 +19,28 @@
         </intent-filter>
         </activity>
         <activity
-            android:name=".CursoUkulele"
+            android:name=".Cursos.CursoUkulele"
             android:exported="false" />
         <activity
-            android:name=".CursoLogicaProgramacion"
+            android:name=".Cursos.CursoLogicaProgramacion"
             android:exported="false" />
         <activity
-            android:name=".CursoDesarrolloWeb"
+            android:name=".Cursos.CursoDesarrolloWeb"
             android:exported="false" />
         <activity
-            android:name=".CursoPython"
+            android:name=".Cursos.CursoPython"
             android:exported="false" />
         <activity
             android:name=".Perfil"
             android:exported="false" />
         <activity
-            android:name=".RegistroActivity"
+            android:name=".Registro.RegistroActivity"
             android:exported="false" />
         <activity
             android:name=".ActivityCursos"
             android:exported="false" />
         <activity
-            android:name=".PerfilUsuario"
+            android:name=".Registro.PerfilUsuario"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
