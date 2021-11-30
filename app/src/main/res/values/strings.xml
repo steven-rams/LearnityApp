@@ -28,8 +28,9 @@
     <string name="BotonRegistrarse">Registrarse</string>
     <!--    cursos -->
     <string name="Cursos">Cursos</string>
+
     <string name="BotonCurso1">Curso de Python</string>
-    <string name="BotonCurso2">Curso de Desarrollo web</string>
+    <string name="BotonCurso2">Curso de JavaScript</string>
     <string name="BotonCurso3">Curso de Logíca de Programación</string>
     <string name="BotonCurso4">Curso de Ukulele</string>
     <!--Curso de python -->
@@ -44,4 +45,6 @@
     <string name="TextModulo4">Funciones, tuplas, diccionarios y procesamiento de datos.</string>
     <string name="BotonIniciarCurso">Comenzar</string>
     <string name="TextIniciar">Comenzar Curso</string>
+    <!--Curso de ukulele -->
+
 </resources>
