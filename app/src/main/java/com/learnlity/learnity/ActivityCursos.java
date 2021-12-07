@@ -4,6 +4,7 @@ package com.learnlity.learnity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,12 +16,23 @@ import com.learnlity.learnity.Cursos.CursoUkulele;
 import com.learnlity.learnity.Registro.PerfilUsuario;
 
 public class ActivityCursos extends AppCompatActivity {
+    ListView lista;
+    String[][]  datos = {
+            {"Python",  "Edube.org","Duración", "Descripción","10"},
+            {"JavaScript",  "Edube.org","Duración", "Descripción","10"},
+            {"Ukulele",  "Edube.org","Duración", "Descripción","10"}
+    };
+    int[] datosImg = {R.drawable.pythonlogo2, R.drawable.javascriptlogo, R.drawable.ukulelelogo2};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cursos);
-    }
+
+        lista = (ListView) findViewById(R.id.lvLista);
+
+        lista.setAdapter(new Adaptador(this, datos, datosImg));
+     }
     //Menu
     public void Siguiente1(View view){
         Intent home = new Intent(this, MainActivity.class);

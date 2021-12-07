@@ -6,18 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".PesentacionApp">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="90dp"
-        android:layout_height="89dp"
-        android:layout_marginTop="44dp"
-        android:contentDescription="@string/Siguiente2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/img_1" />
-
     <ImageButton
         android:id="@+id/imageButton23"
         android:layout_width="39dp"

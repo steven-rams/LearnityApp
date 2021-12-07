@@ -46,5 +46,9 @@
     <string name="BotonIniciarCurso">Comenzar</string>
     <string name="TextIniciar">Comenzar Curso</string>
     <!--Curso de ukulele -->
+    <!--Presentacion texto -->
+    <string name="Learnity">Learnity</string>
+
+
 
 </resources>

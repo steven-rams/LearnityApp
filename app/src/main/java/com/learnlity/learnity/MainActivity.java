@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
+import android.widget.ListView;
 import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.learnlity.learnity.Registro.PerfilUsuario;
 
 public class MainActivity extends AppCompatActivity {
-   
+
     private String ciudad;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
