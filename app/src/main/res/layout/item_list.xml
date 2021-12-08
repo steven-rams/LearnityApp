@@ -49,7 +49,7 @@
         app:layout_constraintGuide_begin="113dp" />
 
     <TextView
-        android:id="@+id/tvTitulo"
+        android:id="@+id/lblTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
@@ -59,7 +59,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
     <TextView
-        android:id="@+id/tvFuente"
+        android:id="@+id/lblSubtitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
@@ -85,10 +85,11 @@
         app:layout_constraintEnd_toStartOf="@+id/tvDuracion"
         app:layout_constraintStart_toStartOf="@+id/guideline10"
         app:layout_constraintTop_toTopOf="@+id/guideline8"
-        app:layout_constraintVertical_bias="0.534" />
+        app:layout_constraintVertical_bias="0.534"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
-        android:id="@+id/ivImagen"
+        android:id="@+id/Imagen"
         android:layout_width="97dp"
         android:layout_height="142dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
